@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public abstract class ArrayCreator {
-    public static <T> T[] Create(int length, T item) {
+    public static <T> T[] create(int length, T item) {
         T[] arr = (T[]) new Object[length];
 
         for (int i = 0; i < length; i++) {
